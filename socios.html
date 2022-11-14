@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Real Madrid</title>
+</head>
+<body style="overflow-x: hidden;">
+    <!--cuarto  commit llamado header primer equipo -->
+    <header style="position:absolute;left: 500px; height: 100px;">
+        <a href="index.html">
+            <img src="imagenes/header_logo1.png" alt="Real Madrid" height="100">
+            <img src="imagenes/header_logo2.png" alt="Real Madrid" height="100">
+        </a>
+    </header>
+
+    <nav style="position: absolute; top:120px; left:500px;height:20px;">
+        <a href="calendario.html">CALENDARIO</a>
+        <a href="">JUGADORES</a>
+        <a href="">EL CLUB</a>
+        <a href="">SOCIOS</a>
+        <a href="">TIENDA</a>
+    </nav>
+    <main style="position: absolute;top:150px;">
+        <h1>HAZTE SOCIO</h1>
+        <form action="">
+            <fieldset>
+                <legend>Datos Personales</legend>
+            
+                <label for="nombre">Nombre</label>
+                <input type="text" id="nombre" name="datos">
+                <br>
+                <label for="apellidos">Apellidos</label>
+                <input type="text" id="apellidos" name="datos">
+                <br>
+                <label for="domicilio">Domicilio</label>
+                <input type="text" id="domicilio" name="datos">
+                <br>
+                <label for="localidad">Localidad</label>
+                <input type="text" id="localidad" name="datos">
+                <br>
+                <label for="codPosatl">Codigo postal</label>
+                <input type="number" id="codPosatl" name="datos">
+                <br>
+                <label for="telefono">Telefono</label>
+                <input type="tel" id="telefono" name="datos">
+                <br>
+                <label for="DNI">DNI</label>
+                <input type="number"  id="DNI" name="datos">
+        </fieldset>
+        <fieldset>
+            <legend>Opciones de abonado</legend>
+            <label for="sector">Elige el sector</label>
+            <br>
+            <select name="sector" id="sector" size="1">
+                <option value="vip">VIP</option>
+                <option selected value="platinun">Platinun</option>
+                <option value="sector1">Sector 1</option>
+                <option value="sector2">Sector 2</option>
+                <option value="sector3">Sector 3</option>
+                
+            </select>
+            <br>
+            <label for="asientos">Elija el numero de asientos</label>
+            <input type="number" id="asientos" name="abonados" min="1" max="20">
+            <br>
+            <label for="tipoAbono">Elige el tipo de abono</label>
+            <br>
+            <select name="tipoAbono" id="sector" size="1">
+                <option selected value="todos">Todos los partidos</option >
+                <option value="liga">Partidos de liga</option>
+                <option value="champions">Partidos de champions</option>
+                <option value="copaRey">Partido de copa del rey</option>
+            </select>
+        </fieldset>
+        <fieldset>
+            <legend>Pago</legend>
+            <label for="titular">Nombre del titular</label>
+            <input type="text" id="titular" name="pago">
+            <br>
+            <label for="numTarjeta">Numero de la tarjeta</label>
+            <input type="number"  id="numTarjeta" name="pago">
+            <br>
+            <label for="fecha">Fecah de caducidad</label>
+            <input type="date"  id="fecha" name="pago">
+            <br>
+            <label for="cvc">Codigo CVC</label>
+            <input type="number"  id="cvc" name="pago" mim="100" max="999">
+
+        </fieldset>
+        <button type="submit">Pagar</button>
+        <button type="reset">Reiniciar</button>
+        
+
+        </form>
+    </main>
+    <footer style="position: absolute; top:800px; height: 150px; width: 117.3%;">
+        <div style="position: absolute; left: 22%; width: 500px;">
+            <h3>SIGUENOS</h3>
+            <a href="https://www.facebook.com/RealMadrid/" target="_blank"><img src="imagenes/facebook_logo.png" alt="facebook" height= "30px"></a>
+            <a href="https://www.instagram.com/realmadrid/" target="_blank"><img src="imagenes/instagram_logo.png" alt="instagram" height= "30px"></a>
+            <a href="https://twitter.com/realmadrid"target="_blank"><img src="imagenes/twitter_logo.png" alt="twitter" height= "30px"></a>
+            <a href="https://www.youtube.com/realmadrid"target="_blank"><img src="imagenes/youtube_logo.png" alt="youtube" height= "30px"></a>
+            <a href="https://onefootball.com/en/team/real-madrid-26"target="_blank"><img src="imagenes/onefootball_logo.jpg" alt="onefootball"height= "30px"></a>
+            <a href="https://www.twitch.tv/realmadrid"target="_blank"><img src="imagenes/twitch_logo.png" alt="twitch" height= "30px"></a>
+            <a href="https://www.snapchat.com/add/realmadrid"target="_blank"><img src="imagenes/snapchat_logo.png" alt="snapchat" height= "30px"></a>
+        
+        </div>
+        <div style="position:absolute; right:18%;width: 500px; ">
+            <h3>REAL MADRID APP</h3>
+            <a href="https://play.google.com/store/apps/details?id=com.mcentric.mcclient.MyMadrid&hl=es&gl=US" target="_blank"><img src="imagenes/logo_playStore.png" alt="play store" height= "30px"></a>
+            <a href="https://apps.apple.com/es/app/realmadrid-app/id1107624540" target="_blank"><img src="imagenes/logo_appStore.jpg" alt="app store" height= "30px"></a>
+            <a href="https://appgallery.huawei.com/#/app/C102163903s"target="_blank"><img src="imagenes/logo_appGalerry.jpg" alt="app galerry" height= "30px"></a>
+            
+    
+        </div>
+    </footer>
