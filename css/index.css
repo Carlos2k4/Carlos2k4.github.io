@@ -143,6 +143,51 @@
 .marcas img{
     width: 100%;
 }
+.marcasPopulares{
+    width: 100%;
+    clear:both;
+}
+.marcas{
+    float:left;
+    width: 20%;
+    margin: 1em;
+
+}
+.marcas img{
+    width: 100%;
+}
+.zapatillasPopulares{
+    width: 100%;
+    clear: both;
+    overflow:hidden;
+
+}
+.cartel2{
+    clear: both;
+    width: 100%;
+    margin-top: 1.3em;
+    overflow:hidden;
+}
+.cartel2_1{
+    width: 65%;
+
+    float: left;
+
+}
+.cartel2_1 img{
+    width: 100%;
+}
+.cartel2_2{
+    width: 30%;
+    float: right;
+
+}
+.cartel2_2 img{
+    width: 100%;
+}
+
+
+
 
 
 
