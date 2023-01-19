@@ -130,6 +130,19 @@
     display: inline-block;
     background-color:rgb(244,243,241);
 }
+.marcasPopulares{
+    width: 100%;
+    clear:both;
+}
+.marcas{
+    float:left;
+    width: 20%;
+    margin: 1em;
+
+}
+.marcas img{
+    width: 100%;
+}
 
 
 
