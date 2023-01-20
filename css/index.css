@@ -118,12 +118,46 @@
     padding: 1em;
 
 
-
 }
 .producto img{
     width: 100%;
     
 }
+.producto img:hover{
+    opacity:0;
+}
+#uno .imagenProducto{
+    background-image: url('../imagenes/airForceBlue2.png');
+
+}
+#dos .imagenProducto{
+    background-image: url('../imagenes/97Rosas2.png');
+
+}
+#tres .imagenProducto{
+    background-image: url('../imagenes/97Menta2.png');
+
+}
+#cuatro .imagenProducto{
+    background-image: url('../imagenes/nmdPharell2.png');
+
+}
+#cinco .imagenProducto{
+    background-image: url('../imagenes/balenciaga2.png');
+
+}
+
+
+    
+.imagenProducto{
+    
+    background-repeat: no-repeat;
+    background-position: 0;
+    padding: 0;
+    margin: 0;
+}
+
+
 .nombre{
     margin-top: 0.5em;
     font-size: 1em;
