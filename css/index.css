@@ -34,6 +34,9 @@
     padding: 0.3em;
     border: solid 1px lightgray;
     outline: none;
+    background-image: url('../imagenes/botonBusquedad.png');
+    background-repeat: no-repeat;
+    padding-left: 2.5em;
 }
 .busqueda input:focus{
     border: solid 1px grey;
@@ -43,6 +46,7 @@
     width: 50%;
     float: left;
     margin-top:1.7em;
+    margin-left: 0.8em;
 }
 .menu a{
     float: left;
@@ -51,11 +55,11 @@
     color: black;
 }
 .menu ul{
-    text-align: right;
+    text-align: left;
 }
 .menu li{
     display: inline-block;
-    margin:0.7em;
+    margin:0.5em;
 }
 
 .menu a:hover{
@@ -75,8 +79,7 @@
 
 .cuerpo{
 
-    border: 1px solid black;
-    width:80%;
+    width:95%;
     height: 20000px;
     margin:auto;
     padding: 0;
@@ -91,21 +94,27 @@
 }
 
 .ProductosRecomendados{
+    margin-top: 0.5em;
     width: 100%;
+
+    overflow: hidden;
 }
+
 .ProductosRecomendados h1 , .marcasPopulares h1, .zapatillasPopulares h1{
     font-size: 1em;
     width: 100%;
-    margin: 1em 0 1em 0;
+    margin: 0.5em;
 
 }
 
 
 .producto{
-    width: 15%;
+    width: 18%;
     border: 1px solid lightgray;
     float: left;
-    margin-right: 1em;
+    margin-right: 0.5em;
+    margin-left: 0.5em;
+    margin-bottom: 1em;
     padding: 1em;
 
 
@@ -113,10 +122,11 @@
 }
 .producto img{
     width: 100%;
+    
 }
 .nombre{
     margin-top: 0.5em;
-    font-size: 1.5em;
+    font-size: 1em;
 }
 .precio{
     font-size: 2em;
@@ -125,32 +135,21 @@
 }
 .ultimaVenta{
     margin-top:1em ;
-    padding: 00.3em;
+    padding: 0.3em;
     font-size: 1em;
     display: inline-block;
     background-color:rgb(244,243,241);
 }
 .marcasPopulares{
     width: 100%;
-    clear:both;
-}
-.marcas{
-    float:left;
-    width: 20%;
-    margin: 1em;
+    overflow: hidden;
+    margin-top:0.5em;
 
 }
-.marcas img{
-    width: 100%;
-}
-.marcasPopulares{
-    width: 100%;
-    clear:both;
-}
 .marcas{
     float:left;
     width: 20%;
-    margin: 1em;
+    margin-left:1em;
 
 }
 .marcas img{
@@ -160,6 +159,7 @@
     width: 100%;
     clear: both;
     overflow:hidden;
+    margin-top: 1em;
 
 }
 .cartel2{
