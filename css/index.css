@@ -95,7 +95,6 @@
 .ProductosRecomendados{
     margin-top: 0.5em;
     width: 100%;
-
     overflow: hidden;
 
 }
@@ -124,7 +123,7 @@
 
 
 .producto{
-    width: 18%;
+    width: 18.7%;
     border: 1px solid lightgray;
     float: left;
     margin-right: 0.5em;
@@ -197,7 +196,7 @@
 }
 .marcas{
     float:left;
-    width: 23%;
+    width: 23.5%;
     margin-left:1em;
 
 }
