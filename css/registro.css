@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(255, 242, 242);
+    box-sizing: border-box;
+}
+
+
+header{
+    width: 100%;
+    background-color: rgb(255,255,255);
+    border-bottom: 1px solid rgb(224,224,224);
+}
+.logo{
+    width: 30%;
+    margin: auto;
+
+}
+.logo img{
+    width: 100%;
+}
+.Registro{
+    width: 30%;
+    margin: auto;
+    border:1px solid rgb(156, 154, 154) ;
+    margin-top: 2em;
+    background-color: white;
+}
+.Registro input{
+    width: 90%;
+    height: 3em;
+    font-size: 1em;
+    padding: 1em;
+    margin: 1em;
+    border:1px solid rgb(156, 154, 154);
+
+}
+.Registro input :focus{
+    outline: 1px black solid;
+}
