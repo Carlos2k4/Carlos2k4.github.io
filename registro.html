@@ -8,20 +8,66 @@
     <link rel="stylesheet" href="css/registro.css">
 </head>
 <body>
-    <header>
+    <header class="cabezera">
         <div class="logo">
-            <img src="imagenes/StockXCabezera.jpg" alt="Logo StockX">
+            <a href="index.html"></a><img src="imagenes/StockXCabezera.jpg" alt="Logo StockX">
         </div>
+        <div class="busqueda">
+            <input type="text"
+                placeholder="Búsqueda por marca, color, etc ...">
+        </div>
+        <nav class="menu">
+            <ul>
+                <li><a href="">Zapatillas</a></li>
+                <li><a href="">Ropa</a></li>
+                <li><a href="">Colecciones</a></li>
+                <li><a href="">Accesorios</a></li>
+                <li><a href="registro.html">Registrarte</a></li>
+            </ul>
+
+        </nav>
+
     </header>
     <main>
+        
         <div class="Registro">
-            <form action="">
-                <h1>Registrarse</h1>
-                <input type="text" placeholder="Nombre">
-                <input type="text" placeholder="Apellidos">
-                <input type="text" placeholder="Direccion de email">
-                <input type="text" placeholder="Contraseña">
-            </form>
+            <div class="inicioSesion">
+                <div class="logoStockx"><img src="imagenes/image.png"></div>
+                <div class="google">Inicia sesion con Google</div>
+                <div class="facebook">Inicia sesion con Facebook</div>
+    
+            </div>
+            <div class="formulario">
+                <form action="">
+                    <h1>Registrarse</h1>
+                    <div class="nombre">
+                        <label for="nombre">Nombre</label>
+                        <input type="text" placeholder="Nombre" id="nombre">
+
+                    </div>
+                    <div class="apellidos">
+                        <label for="apellidos">Apellidos</label>
+                        <input type="text" placeholder="Apellidos" id="appellidos">
+                    </div>
+                    
+                    <div class="email">
+                        <label for="email">Direccion de email</label>
+                        <input type="email" placeholder="Direccion de email" id="email" required>
+                    </div>
+                    <div class="contraseña">
+                        <label for="contraseña">Contraseña</label>
+                        <input type="password" placeholder="Contraseña" id="contraseña">
+                    </div>
+                    <div class="repetirContraseña">
+                        <label for="contraseña">Repetir Contraseña</label>
+                        <input type="password" placeholder="Contraseña" id="Repetircontraseña">
+                    </div>
+                    <div class="enviar">
+                        <button type="submit">Registrarse</button>
+                    </div>
+                    
+                    </form>
+            </div>
         </div>
         
     </main>
