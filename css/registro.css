@@ -172,3 +172,39 @@
 
 }
 
+/*pie de pagina*/
+footer{
+    margin-top: 3em;
+    color: white;
+    background-color:rgb(36, 36, 36);
+}
+.listaTendencias ul{
+    float: left;
+    list-style: none;
+    margin: 1em;
+    width: 14%;
+}
+.listaTendencias{
+    overflow: hidden;
+    clear: both;
+    width: 95%;
+    margin: auto;
+    padding-top: 2em;
+    padding-bottom: 1.5em;
+    border-bottom: 1px solid rgb(138, 138, 138);
+
+
+}
+.informacion{
+    display: inline-block;
+    padding: 1em;
+    border: white solid 1px;
+    color: white;
+    font-size: 0.5em;
+    margin: 2em;
+    margin-left: 3.5em;
+}
+.informacion:hover{
+    color: rgb(39,39,39);
+    background-color: white;
+}
