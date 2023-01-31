@@ -254,7 +254,96 @@
 .cartel3 img {
     width: 100%;
 }
+footer{
+    margin-top: 3em;
+    color: white;
+    background-color:rgb(36, 36, 36);
+    height: 600px;
+}
+.listaTendencias ul{
+    float: left;
+    list-style: none;
+    margin: 1em;
+    width: 17.7%;
+}
+.listaTendencias li{
+    margin: 1em;
+}
+.listaTendencias{
+    overflow: hidden;
+    clear: both;
+    width: 95%;
+    margin: auto;
+    padding-top: 2em;
+    padding-bottom: 1.5em;
+    border-bottom: 1px solid rgb(138, 138, 138);
 
+
+}
+
+.informacion{
+    float: left;
+    display: inline-block;
+    padding: 1em;
+    border: white solid 1px;
+    color: white;
+    font-size: 0.6em;
+    margin: 4em;
+    margin-left: 5em;
+}
+.informacion:hover{
+    color: rgb(39,39,39);
+    background-color: white;
+}
+.redesSociales{
+    float: left;
+    font-size: 0.45em;
+    margin: 5em;
+    margin-left: 4em;
+
+}
+.redesSociales img{
+    width: 100%;
+}
+.instagram, .Facebook, .twitter{
+    margin: 1em;
+    width:10%;
+    float: left;
+}
+.youtube{
+    width: 15%;
+    margin: 0.8em;
+    float: left;
+}
+
+
+.app{
+    float: left;
+    font-size: 0.45em;
+    margin: 5em;
+    margin-left: 4em;
+    
+}
+.app img{
+    width: 100%;
+
+}
+.android{
+    float: left;
+    margin:1em;
+    width: 15%;
+}
+.apple{
+    float: left;
+    margin:1em;
+    width: 13%;
+}
+
+.footer2{
+    margin: auto;
+    width: 60%;
+    overflow: hidden;
+}
 
 
 
