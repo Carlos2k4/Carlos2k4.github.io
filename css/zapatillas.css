@@ -12,8 +12,9 @@
     overflow: hidden;
     margin: auto;
     background-color: white;
+    position: fixed;
+    top:0px;
     border-bottom: solid 1px rgb(224,224,224);
-
     
 }
 .logo{
@@ -67,20 +68,15 @@
 .menu a:hover{
     color: #006340;
 }
-.Rebajas{
-    width: 100%;
-    height: 40px;
-    font-size: 1.5em;
-    background-color:rgb(244,243,241);
-    text-align: center;
-    padding: 0.2em;
-    float: left;
-}
+
+
+
 /*Cuerpo de la pagina*/
 .cuerpo{
     width: 90%;
     margin: auto;
     overflow: hidden;
+    margin-top: 7em;
 }
 
 .cartelZapatillas{
@@ -143,10 +139,23 @@
     background-color: red;
     color: white;
 }
-.cabezera{
-    margin-bottom: 2em;
+.encabezado{
+    margin: 0.5em;
+    padding: 1em;
+    font-size: 1.3em;
 }
+.encabezado a{
+    text-decoration: none;
+    color: grey;
+    display: inline-block;
+    margin-right:0.3em;
 
+}
+.encabezado p{
+    border-bottom:1px solid black;
+    display: inline-block;
+    margin-left: 0.3em;
+}
 
 .producto{
     width: 23.3%;

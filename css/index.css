@@ -9,8 +9,12 @@
 
 .cabezera{
     width: 100%;
-    height: 180px;
+    height: 100px;
     margin: auto;
+    border-bottom: solid 1px rgb(224,224,224);
+    background-color: white;
+    position: fixed;
+    top: 0;
 
     
 }
@@ -65,15 +69,7 @@
 .menu a:hover{
     color: #006340;
 }
-.Rebajas{
-    width: 100%;
-    height: 40px;
-    font-size: 1.5em;
-    background-color:rgb(244,243,241);
-    text-align: center;
-    padding: 0.2em;
-    float: left;
-}
+
 
 /*Estilo del cuerpo de la pagina*/
 
@@ -82,6 +78,18 @@
     width:95%;
     margin:auto;
     padding: 0;
+    margin-top: 7em;
+}
+.Rebajas{
+    width: 100%;
+    height: 40px;
+    font-size: 1.5em;
+    background-color:rgb(244,243,241);
+    text-align: center;
+    padding: 0.2em;
+    float: left;
+    margin-top:0.5em;
+    margin-bottom: 1em;
 }
 
 
