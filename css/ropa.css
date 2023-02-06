@@ -121,14 +121,14 @@
 }
 .tallas{
     margin-top: 3em;
-    width: 80%;
+    width: 100%;
     overflow: hidden;
     clear: both;
 }
 .tallas h1{
     margin-bottom: 0.6em;
 }
-.tallasDisponibles, .tallasNoDisponibles{
+.tallasDisponibles{
     border: 1px solid black;
     display: inline-block;
     width: 20%;
@@ -143,11 +143,7 @@
     background-color: green;
     color: white;
 }
-.tallasNoDisponibles:hover{
-    border: 1px solid red;
-    background-color: red;
-    color: white;
-}
+
 .encabezado{
     margin: 0.5em;
     padding: 1em;
@@ -173,9 +169,6 @@
     margin-left: 0.5em;
     margin-bottom: 1em;
     padding: 1em;
-
-
-
 }
 .producto img{
     width: 100%;
@@ -192,8 +185,8 @@
     margin-top: 0.4em;
 }
 .ultimaVenta{
-    margin-top:1em ;
-    padding: 0.3em;
+    margin:1em ;
+    padding: 0.4em;
     font-size: 1em;
     display: inline-block;
     background-color:rgb(244,243,241);
@@ -258,7 +251,7 @@
 
 /*pie de pagina*/
 footer{
-    margin-top: 1em;
+    margin-top: 3em;
     color: white;
     background-color:rgb(36, 36, 36);
     height: 600px;
