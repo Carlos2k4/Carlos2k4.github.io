@@ -93,7 +93,7 @@
     margin-bottom: 0.5em;
 }
 .productosDisponibles{
-    overflow: hidden;
+    height:;
 
     width: 20%;
     float: left;
@@ -169,11 +169,14 @@
     margin-left: 0.5em;
     margin-bottom: 1em;
     padding: 1em;
+
 }
+
 .producto img{
     width: 100%;
     
 }
+
 
 .nombre{
     margin-top: 0.5em;
@@ -192,11 +195,9 @@
     background-color:rgb(244,243,241);
 }
 .subir{
-    margin: 1.5em;
-    margin-top: 18em;
     width: 50px;
     height: 100px;
-    float: right;
+    float: left;
     
 
 }
@@ -231,6 +232,98 @@
     100% {left:0px; top:10px;}
   }
     
+/*Animacion es de los oproductos*/
+.imagenProducto{
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-position: 0px;
+}
+.imagenProducto img:hover{
+    opacity: 0; 
+}
+
+#uno{
+    background-image: url('../imagenes/gorroSupreme2.png');
+    background-size: 100%;
+    
+}
+#dos{
+    background-image: url('../imagenes/carteraThromBrowne.png');
+    background-size: 100%;
+    
+}
+#tres{
+    background-image: url('../imagenes/carteraGivencci2.png');
+    background-size: 100%;
+    
+}
+#cuatro{
+    background-image: url('../imagenes/gorroRafSimons2.png');
+    background-size: 100%;
+    
+}
+#cinco{
+    background-image: url('../imagenes/cartierGafas2.png');
+    background-size: 100%;
+    
+}
+#seis{
+    background-image: url('../imagenes/dolceGabbanaCartera2.png');
+    background-size: 100%;
+    
+}
+#siete{
+    background-image: url('../imagenes/dolceGabbanaGafas2.png');
+    background-size: 100%;
+    
+}
+#ocho{
+    background-image: url('../imagenes/dupont2.png');
+    background-size: 100%;
+    
+}
+#nueve{
+    background-image: url('../imagenes/fendiBufanda2.png');
+    background-size: 100%;
+    
+}
+#diez{
+    background-image: url('../imagenes/dolceGabbanaGemelos2.png');
+    background-size: 100%;
+    
+}
+#once{
+    background-image: url('../imagenes/ferragamo2.png');
+    background-size: 100%;
+    
+}
+#doce{
+    background-image: url('../imagenes/FPMMilano2.png');
+    background-size: 100%;
+    
+}
+#trece{
+    background-image: url('../imagenes/philpPleinCartera2.png');
+    background-size: 100%;
+    
+}
+#catorce{
+    background-image: url('../imagenes/PradaNeceser2.png');
+    background-size: 100%;
+    
+}
+#quince{
+    background-image: url('../imagenes/supremeCasco2.png');
+    background-size: 100%;
+    
+}
+#dieciseis{
+    background-image: url('../imagenes/versaceCama2.png');
+    background-size: 100%;
+    
+}
 
 
 
