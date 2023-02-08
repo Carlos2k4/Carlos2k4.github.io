@@ -238,95 +238,89 @@
     padding: 0;
     margin: 0;
     background-repeat: no-repeat;
-    background-position: 0;
+    background-position: 0px;
 }
 .imagenProducto img:hover{
     opacity: 0; 
 }
-.imagenProducto img{
-    height: 100%;
-    margin: 0;
-    padding: 0;
-
-}
 
 #uno{
-    background-image: url('../imagenes/gorroSupreme2.png');
+    background-image: url('../imagenes/rolexDorado2.jpg');
     background-size: 100%;
     
 }
 #dos{
-    background-image: url('../imagenes/carteraThromBrowne.png');
+    background-image: url('../imagenes/rolexNegro2.png');
     background-size: 100%;
     
 }
 #tres{
-    background-image: url('../imagenes/carteraGivencci2.png');
+    background-image: url('../imagenes/rolexNegroRosa2.png');
     background-size: 100%;
     
 }
 #cuatro{
-    background-image: url('../imagenes/gorroRafSimons2.png');
+    background-image: url('../imagenes/madParis2.png');
     background-size: 100%;
     
 }
 #cinco{
-    background-image: url('../imagenes/cartierGafas2.png');
+    background-image: url('../imagenes/patekPhilippeNegro2.png');
     background-size: 100%;
     
 }
 #seis{
-    background-image: url('../imagenes/dolceGabbanaCartera2.png');
+    background-image: url('../imagenes/patekPhilipPlata2.jpg');
     background-size: 100%;
     
 }
 #siete{
-    background-image: url('../imagenes/dolceGabbanaGafas2.png');
+    background-image: url('../imagenes/rolexDateOro2.png');
     background-size: 100%;
     
 }
 #ocho{
-    background-image: url('../imagenes/dupont2.png');
+    background-image: url('../imagenes/rolexDatePlata2.png');
     background-size: 100%;
     
 }
 #nueve{
-    background-image: url('../imagenes/fendiBufanda2.png');
+    background-image: url('../imagenes/rolexDateRosa2.png');
     background-size: 100%;
     
 }
 #diez{
-    background-image: url('../imagenes/dolceGabbanaGemelos2.png');
+    background-image: url('../imagenes/rolexPlataOro2.png');
     background-size: 100%;
     
 }
 #once{
-    background-image: url('../imagenes/ferragamo2.png');
+    background-image: url('../imagenes/audemansPiguet2.png');
     background-size: 100%;
     
 }
 #doce{
-    background-image: url('../imagenes/FPMMilano2.png');
+    background-image: url('../imagenes/rolexPlataRosa2.png');
     background-size: 100%;
     
 }
 #trece{
-    background-image: url('../imagenes/philpPleinCartera2.png');
+    background-image: url('../imagenes/rolexOroPlata2.png');
     background-size: 100%;
     
 }
 #catorce{
-    background-image: url('../imagenes/PradaNeceser2.png');
+    background-image: url('../imagenes/rolexPlataRojo2.png');
     background-size: 100%;
     
 }
 #quince{
-    background-image: url('../imagenes/supremeCasco2.png');
+    background-image: url('../imagenes/rolexVerde2.png');
     background-size: 100%;
     
 }
 #dieciseis{
-    background-image: url('../imagenes/versaceCama2.png');
+    background-image: url('../imagenes/hublot2.png');
     background-size: 100%;
     
 }
@@ -439,4 +433,3 @@ footer{
     width: 60%;
     overflow: hidden;
 }
-
