@@ -1,0 +1,656 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "SuisseIntl-Regular",sans-serif;
+}
+
+/* Estilo de la cabezera*/
+
+.cabezera{
+    width: 100%;
+    height: 100px;
+    margin: auto;
+    border-bottom: solid 1px rgb(224,224,224);
+    background-color: white;
+    position: fixed;
+    top: 0;
+
+    
+}
+.logo{
+    margin: 1.6em;
+    width: 15%;
+    float: left;
+}
+.logo img{
+    width: 100%;
+}
+.busqueda{
+    width: 30%;
+    float: left;
+    margin-top:1.7em;
+
+}
+.busqueda input{
+    width: 100%;
+    height: 3em;
+    padding: 0.3em;
+    border: solid 1px lightgray;
+    outline: none;
+    background-image: url('../imagenes/botonBusquedad.png');
+    background-repeat: no-repeat;
+    padding-left: 2.5em;
+}
+.busqueda input:focus{
+    border: solid 1px grey;
+
+}
+.menu{
+    width: 50%;
+    float: left;
+    margin-top:1.7em;
+    margin-left: 0.8em;
+}
+.menu a{
+    float: left;
+    font-size: 1.5em;
+    text-decoration: none;
+    color: black;
+}
+.menu ul{
+    text-align: left;
+}
+.menu li{
+    display: inline-block;
+    margin:0.5em;
+}
+
+.menu a:hover{
+    color: #006340;
+}
+/**/
+.accesorios .imagenProducto img:hover,
+.relojes .imagenProducto img:hover{
+    opacity: 0;
+}
+#AccesorioUno{
+    background-image: url('../imagenes/gorroSupreme2.png');
+    background-size: 100%;
+    
+}
+#AccesorioDos{
+    background-image: url('../imagenes/carteraThromBrowne.png');
+    background-size: 100%;
+    
+}
+#AccesorioTres{
+    background-image: url('../imagenes/carteraGivencci2.png');
+    background-size: 100%;
+    
+}
+#AccesorioCuatro{
+    background-image: url('../imagenes/gorroRafSimons2.png');
+    background-size: 100%;
+    
+}
+#AccesorioCinco{
+    background-image: url('../imagenes/cartierGafas2.png');
+    background-size: 100%;
+    
+}
+#AccesorioSeis{
+    background-image: url('../imagenes/dolceGabbanaCartera2.png');
+    background-size: 100%;
+    
+}
+#AccesorioSiete{
+    background-image: url('../imagenes/dolceGabbanaGafas2.png');
+    background-size: 100%;
+    
+}
+#AccesorioOcho{
+    background-image: url('../imagenes/dupont2.png');
+    background-size: 100%;
+    
+}
+#AccesorioNueve{
+    background-image: url('../imagenes/fendiBufanda2.png');
+    background-size: 100%;
+    
+}
+#AccesorioDiez{
+    background-image: url('../imagenes/dolceGabbanaGemelos2.png');
+    background-size: 100%;
+    
+}
+#AccesorioOnce{
+    background-image: url('../imagenes/ferragamo2.png');
+    background-size: 100%;
+    
+}
+#AccesorioDoce{
+    background-image: url('../imagenes/FPMMilano2.png');
+    background-size: 100%;
+    
+}
+#AccesorioTrece{
+    background-image: url('../imagenes/philpPleinCartera2.png');
+    background-size: 100%;
+    
+}
+#AccesorioCatorce{
+    background-image: url('../imagenes/PradaNeceser2.png');
+    background-size: 100%;
+    
+}
+#AccesorioQuince{
+    background-image: url('../imagenes/supremeCasco2.png');
+    background-size: 100%;
+    
+}
+#AccesorioDieciseis{
+    background-image: url('../imagenes/versaceCama2.png');
+    background-size: 100%;
+    
+}
+
+/**/
+
+#RelojUno{
+    background-image: url('../imagenes/rolexDorado2.jpg');
+    background-size: 100%;
+    
+}
+#RelojDos{
+    background-image: url('../imagenes/rolexNegro2.png');
+    background-size: 100%;
+    
+}
+#RelojTres{
+    background-image: url('../imagenes/rolexNegroRosa2.png');
+    background-size: 100%;
+    
+}
+#RelojCuatro{
+    background-image: url('../imagenes/madParis2.png');
+    background-size: 100%;
+    
+}
+#RelojCinco{
+    background-image: url('../imagenes/patekPhilippeNegro2.png');
+    background-size: 100%;
+    
+}
+#RelojSeis{
+    background-image: url('../imagenes/patekPhilipPlata2.jpg');
+    background-size: 100%;
+    
+}
+#RelojSiete{
+    background-image: url('../imagenes/rolexDateOro2.png');
+    background-size: 100%;
+    
+}
+#RelojOcho{
+    background-image: url('../imagenes/rolexDatePlata2.png');
+    background-size: 100%;
+    
+}
+#RelojNueve{
+    background-image: url('../imagenes/rolexDateRosa2.png');
+    background-size: 100%;
+    
+}
+#RelojDiez{
+    background-image: url('../imagenes/rolexPlataOro2.png');
+    background-size: 100%;
+    
+}
+#RelojOnce{
+    background-image: url('../imagenes/audemansPiguet2.png');
+    background-size: 100%;
+    
+}
+#RelojDoce{
+    background-image: url('../imagenes/rolexPlataRosa2.png');
+    background-size: 100%;
+    
+}
+#RelojTrece{
+    background-image: url('../imagenes/rolexOroPlata2.png');
+    background-size: 100%;
+    
+}
+#RelojCatorce{
+    background-image: url('../imagenes/rolexPlataRojo2.png');
+    background-size: 100%;
+    
+}
+#RelojQuince{
+    background-image: url('../imagenes/rolexVerde2.png');
+    background-size: 100%;
+    
+}
+#RelojDieciseis{
+    background-image: url('../imagenes/hublot2.png');
+    background-size: 100%;
+    
+}
+/*Estilo del cuerpo de la pagina principal*/
+
+main{
+    
+    width:95%;
+    margin:auto;
+    padding: 0;
+    margin-top: 7em;
+}
+.Rebajas{
+    width: 100%;
+    height: 40px;
+    font-size: 1.5em;
+    background-color:rgb(244,243,241);
+    text-align: center;
+    padding: 0.2em;
+    float: left;
+    margin-top:0.5em;
+    margin-bottom: 1em;
+}
+
+.cartel1{
+    width: 100%;
+}
+.cartel1 img{
+    width: 100%;
+}
+
+
+
+.ProductosRecomendados h1 , .marcasPopulares h1, .zapatillasPopulares h1,
+.AccesoriosPopular h1 , .RopaPopular h1, .RelojesPopulares h1{
+    font-size: 1em;
+    width: 80%;
+    margin: 0.5em;
+    display: inline-block;
+    float: left;
+
+}
+.ProductosRecomendados a , .marcasPopulares a, .zapatillasPopulares a,
+.AccesoriosPopular a , .RopaPopular a, .RelojesPopulares a{
+    color: #006340;
+    width: 10%;
+    margin: 0.5em;
+    font-size: 1em;
+    font-weight: 600;
+    float: right;
+    overflow: hidden;
+    text-decoration: none;
+}
+
+
+
+ .zapatillasPopulares .producto,
+ .ProductosRecomendados .producto,
+ .RopaPopular .producto,
+ .AccesoriosPopular .producto,
+ .RelojesPopulares .producto{
+    width: 18.7%;
+    border: 1px solid lightgray;
+    float: left;
+    margin-right: 0.5em;
+    margin-left: 0.5em;
+    margin-bottom: 1em;
+    padding: 1em;
+
+
+}
+.ProductosRecomendados,
+.RopaPopular,
+.zapatillasPopulares,
+.AccesoriosPopular,
+.RelojesPopulares
+{
+    margin-top: 1em;
+    width: 100%;
+    overflow: hidden;
+
+}
+
+
+
+.producto img{
+    width: 100%;
+    
+}
+
+
+.nombre{
+    margin-top: 0.5em;
+    font-size: 1.3em;
+    font-weight: 400;
+}
+.descripcion{
+    margin-top:0.5em;
+}
+.precio{
+    font-size: 2em;
+    font-weight: 600;
+    margin-top: 0.9em;
+}
+.relojes .precio,
+.accesorios .precio{
+    font-size: 1.5em;
+}
+
+
+.ultimaVenta{
+    margin-top:1em ;
+    padding: 0.3em;
+    font-size: 1em;
+    display: inline-block;
+    background-color:rgb(244,243,241);
+}
+
+.marcas{
+    float:left;
+    width: 23.5%;
+    margin-left:1em;
+
+}
+.marcas img{
+    width: 100%;
+}
+
+.cartel2{
+    clear: both;
+    width: 100%;
+    margin-top: 1.3em;
+    overflow:hidden;
+}
+.cartel2_1{
+    width: 65%;
+
+    float: left;
+
+}
+.cartel2_1 img{
+    width: 100%;
+}
+.cartel2_2{
+    width: 30%;
+    float: right;
+
+}
+.cartel2_2 img{
+    width: 100%;
+}
+
+.cartel3{
+    width: 100%;
+}
+.cartel3 img {
+    width: 100%;
+}
+
+/*Estilo de los productos*/
+.productos,
+.accesorios,
+.relojes{
+    width: 80%;
+    float: left;
+}
+.producto{
+    width: 23.5%;
+    border: 1px solid lightgray;
+    float: left;
+    margin-right: 0.5em;
+    margin-left: 0.5em;
+    margin-bottom: 1em;
+    padding: 1em;
+}
+.producto img{
+    width: 100%;
+    
+}
+
+
+
+/*Estilo de las marcas disponibles y tallas*/
+.productosDisponibles{
+    margin-top: 2em;
+    overflow: hidden;
+    width: 20%;
+    float: left;
+}
+.marcasDisponibles{
+    margin-top: 2em;
+    font-size: 0.8em;
+}
+
+.marcasDisponibles  ul{
+    list-style: none;
+    font-size: 1em;
+    font-weight:500;
+    margin-top: 1.7em;
+}
+.marcasDisponibles  li{
+    list-style: none;
+    font-size: 0.8em;
+    font-weight:500;
+    margin-top: 0.8em;
+}
+.tallasZapatillas,
+.tallasRopa{
+    margin-top: 3em;
+    overflow: hidden;
+    clear: both;
+}
+.tallasZapatillas{
+    width: 80%;
+}
+.tallasRopa{
+    width: 60%;
+}
+.tallas h1{
+    margin-bottom: 0.6em;
+}
+.tallasDisponibles, .tallasNoDisponibles{
+    border: 1px solid black;
+    display: inline-block;
+    float: left;
+    padding: 0.5em;
+    margin: 0.5em;
+    text-align: center;
+
+}
+.tallasRopa .tallasDisponibles{
+    width: 35%;
+}
+.tallasZapatillas .tallasDisponibles,
+.tallasZapatillas .tallasNoDisponibles{
+    width: 20%;
+}
+.tallasDisponibles:hover{
+    border: 1px solid green;
+    background-color: green;
+    color: white;
+}
+.tallasNoDisponibles:hover{
+    border: 1px solid red;
+    background-color: red;
+    color: white;
+}
+
+/*Estilo de la pagina zapatillas*/
+.contenido{
+    width: 90%;
+    margin: auto;
+    overflow: hidden;
+    margin-top: 7em;
+}
+
+/*Carterl de informacion */
+.cartelInformacion{
+    width: 100%;
+    background-color: rgb(244,243, 242);
+    padding: 2em;
+    margin: 2em 0;
+
+}
+.cartelZapatillas h1{
+    font-weight: 100;
+    font-size: 2em;
+    margin-bottom: 0.5em;
+}
+
+/*Estilo de en que pagina nos encontramos*/
+
+.encabezado{
+    margin: 0.5em;
+    padding: 1em;
+    font-size: 1.3em;
+}
+.encabezado a{
+    text-decoration: none;
+    color: grey;
+    display: inline-block;
+    margin-right:0.3em;
+
+}
+.encabezado p{
+    border-bottom:1px solid black;
+    display: inline-block;
+    margin-left: 0.3em;
+}
+
+/*Estilo de subir arriba del todo*/
+
+
+.subir{
+    margin: 1.5em;
+    margin-top: 18em;
+    width: 50px;
+    height: 100px;
+    float: right;
+}
+.subir a{
+    text-decoration: none;
+    color: grey;
+    font-size: 1em;
+}
+.animacion{
+    margin-bottom: 1em;
+    width: 50px;
+    height: 50px;
+    position: relative;
+    animation-name: subirBajar;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-play-state: paused;
+
+  }
+.animacion:hover{
+    animation-play-state: running;
+  }
+  
+  
+  @keyframes subirBajar {
+    0%   {left:0px; top:10px;}
+  
+    50%  {left:0px; top:5px;}
+    
+    100% {left:0px; top:10px;}
+  }
+
+/*pie de la pagina*/
+footer{
+    margin-top: 3em;
+    color: white;
+    background-color:rgb(36, 36, 36);
+    height: 600px;
+}
+.listaTendencias ul{
+    float: left;
+    list-style: none;
+    margin: 1em;
+    width: 17.7%;
+}
+.listaTendencias li{
+    margin: 1em;
+}
+.listaTendencias{
+    overflow: hidden;
+    clear: both;
+    width: 95%;
+    margin: auto;
+    padding-top: 2em;
+    padding-bottom: 1.5em;
+    border-bottom: 1px solid rgb(138, 138, 138);
+
+
+}
+
+.informacion{
+    float: left;
+    display: inline-block;
+    padding: 1em;
+    border: white solid 1px;
+    color: white;
+    font-size: 0.6em;
+    margin: 4em;
+    margin-left: 5em;
+}
+.informacion:hover{
+    color: rgb(39,39,39);
+    background-color: white;
+}
+.redesSociales{
+    float: left;
+    font-size: 0.45em;
+    margin: 5em;
+    margin-left: 4em;
+
+}
+.redesSociales img{
+    width: 100%;
+}
+.instagram, .Facebook, .twitter{
+    margin: 1em;
+    width:10%;
+    float: left;
+}
+.youtube{
+    width: 15%;
+    margin: 0.8em;
+    float: left;
+}
+
+
+.app{
+    float: left;
+    font-size: 0.45em;
+    margin: 5em;
+    margin-left: 4em;
+    
+}
+.app img{
+    width: 100%;
+
+}
+.android{
+    float: left;
+    margin:1em;
+    width: 15%;
+}
+.apple{
+    float: left;
+    margin:1em;
+    width: 13%;
+}
+
+.footer2{
+    margin: auto;
+    width: 60%;
+    overflow: hidden;
+}
