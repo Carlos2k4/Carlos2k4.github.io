@@ -5,6 +5,8 @@
     font-family: "SuisseIntl-Regular",sans-serif;
 }
 
+
+
 /* Estilo de la cabezera*/
 
 .cabezera{
@@ -15,8 +17,6 @@
     border-bottom: solid 1px rgb(224,224,224);
     position: fixed;
     top:0;
-
-    
 }
 .logo{
     margin: 1.6em;
@@ -187,7 +187,7 @@ footer{
     margin-top: 3em;
     color: white;
     background-color:rgb(36, 36, 36);
-    height: 600px;
+    height: 550px;
 }
 .listaTendencias ul{
     float: left;
@@ -273,4 +273,21 @@ footer{
     width: 60%;
     overflow: hidden;
 }
+.terminos{
+    width: 100%;
+    height: 150px;
+    padding: 5em;
+    text-align: center;
+    margin: auto;
+    margin-top: 0;
+    background-color: black;
+    color: white;
 
+}
+.terminos a{
+    text-decoration: none;
+    color: white;
+}
+.terminos a:hover{
+    border-bottom:white solid 1px ;
+}

@@ -15,6 +15,7 @@
     background-color: white;
     position: fixed;
     top: 0;
+    z-index: 100;
 
     
 }
@@ -70,173 +71,7 @@
     color: #006340;
 }
 /**/
-.accesorios .imagenProducto img:hover,
-.relojes .imagenProducto img:hover{
-    opacity: 0;
-}
-#AccesorioUno{
-    background-image: url('../imagenes/gorroSupreme2.png');
-    background-size: 100%;
-    
-}
-#AccesorioDos{
-    background-image: url('../imagenes/carteraThromBrowne.png');
-    background-size: 100%;
-    
-}
-#AccesorioTres{
-    background-image: url('../imagenes/carteraGivencci2.png');
-    background-size: 100%;
-    
-}
-#AccesorioCuatro{
-    background-image: url('../imagenes/gorroRafSimons2.png');
-    background-size: 100%;
-    
-}
-#AccesorioCinco{
-    background-image: url('../imagenes/cartierGafas2.png');
-    background-size: 100%;
-    
-}
-#AccesorioSeis{
-    background-image: url('../imagenes/dolceGabbanaCartera2.png');
-    background-size: 100%;
-    
-}
-#AccesorioSiete{
-    background-image: url('../imagenes/dolceGabbanaGafas2.png');
-    background-size: 100%;
-    
-}
-#AccesorioOcho{
-    background-image: url('../imagenes/dupont2.png');
-    background-size: 100%;
-    
-}
-#AccesorioNueve{
-    background-image: url('../imagenes/fendiBufanda2.png');
-    background-size: 100%;
-    
-}
-#AccesorioDiez{
-    background-image: url('../imagenes/dolceGabbanaGemelos2.png');
-    background-size: 100%;
-    
-}
-#AccesorioOnce{
-    background-image: url('../imagenes/ferragamo2.png');
-    background-size: 100%;
-    
-}
-#AccesorioDoce{
-    background-image: url('../imagenes/FPMMilano2.png');
-    background-size: 100%;
-    
-}
-#AccesorioTrece{
-    background-image: url('../imagenes/philpPleinCartera2.png');
-    background-size: 100%;
-    
-}
-#AccesorioCatorce{
-    background-image: url('../imagenes/PradaNeceser2.png');
-    background-size: 100%;
-    
-}
-#AccesorioQuince{
-    background-image: url('../imagenes/supremeCasco2.png');
-    background-size: 100%;
-    
-}
-#AccesorioDieciseis{
-    background-image: url('../imagenes/versaceCama2.png');
-    background-size: 100%;
-    
-}
 
-/**/
-
-#RelojUno{
-    background-image: url('../imagenes/rolexDorado2.jpg');
-    background-size: 100%;
-    
-}
-#RelojDos{
-    background-image: url('../imagenes/rolexNegro2.png');
-    background-size: 100%;
-    
-}
-#RelojTres{
-    background-image: url('../imagenes/rolexNegroRosa2.png');
-    background-size: 100%;
-    
-}
-#RelojCuatro{
-    background-image: url('../imagenes/madParis2.png');
-    background-size: 100%;
-    
-}
-#RelojCinco{
-    background-image: url('../imagenes/patekPhilippeNegro2.png');
-    background-size: 100%;
-    
-}
-#RelojSeis{
-    background-image: url('../imagenes/patekPhilipPlata2.jpg');
-    background-size: 100%;
-    
-}
-#RelojSiete{
-    background-image: url('../imagenes/rolexDateOro2.png');
-    background-size: 100%;
-    
-}
-#RelojOcho{
-    background-image: url('../imagenes/rolexDatePlata2.png');
-    background-size: 100%;
-    
-}
-#RelojNueve{
-    background-image: url('../imagenes/rolexDateRosa2.png');
-    background-size: 100%;
-    
-}
-#RelojDiez{
-    background-image: url('../imagenes/rolexPlataOro2.png');
-    background-size: 100%;
-    
-}
-#RelojOnce{
-    background-image: url('../imagenes/audemansPiguet2.png');
-    background-size: 100%;
-    
-}
-#RelojDoce{
-    background-image: url('../imagenes/rolexPlataRosa2.png');
-    background-size: 100%;
-    
-}
-#RelojTrece{
-    background-image: url('../imagenes/rolexOroPlata2.png');
-    background-size: 100%;
-    
-}
-#RelojCatorce{
-    background-image: url('../imagenes/rolexPlataRojo2.png');
-    background-size: 100%;
-    
-}
-#RelojQuince{
-    background-image: url('../imagenes/rolexVerde2.png');
-    background-size: 100%;
-    
-}
-#RelojDieciseis{
-    background-image: url('../imagenes/hublot2.png');
-    background-size: 100%;
-    
-}
 /*Estilo del cuerpo de la pagina principal*/
 
 main{
@@ -245,6 +80,7 @@ main{
     margin:auto;
     padding: 0;
     margin-top: 7em;
+    position: static;
 }
 .Rebajas{
     width: 100%;
@@ -398,7 +234,7 @@ main{
 .accesorios,
 .relojes{
     width: 80%;
-    float: left;
+    float: right;
 }
 .producto{
     width: 23.5%;
@@ -413,6 +249,179 @@ main{
     width: 100%;
     
 }
+.imagenProducto{
+    background-repeat: no-repeat;
+}
+.accesorios .imagenProducto img:hover,
+.relojes .imagenProducto img:hover{
+    opacity: 0;
+}
+#AccesorioUno{
+    background-image: url('../imagenes/gorroSupreme2.png');
+    background-size: 100%;
+    border: #006340 solid black;
+    background-repeat: no-repeat;
+    
+}
+#AccesorioDos{
+    background-image: url('../imagenes/carteraThromBrowne.png');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    
+}
+#AccesorioTres{
+    background-image: url('../imagenes/carteraGivencci2.png');
+    background-size: 100%;
+    
+}
+#AccesorioCuatro{
+    background-image: url('../imagenes/gorroRafSimons2.png');
+    background-size: 100%;
+    
+}
+#AccesorioCinco{
+    background-image: url('../imagenes/cartierGafas2.png');
+    background-size: 100%;
+    
+}
+#AccesorioSeis{
+    background-image: url('../imagenes/dolceGabbanaCartera2.png');
+    background-size: 100%;
+    
+}
+#AccesorioSiete{
+    background-image: url('../imagenes/dolceGabbanaGafas2.png');
+    background-size: 100%;
+    
+}
+#AccesorioOcho{
+    background-image: url('../imagenes/dupont2.png');
+    background-size: 100%;
+    
+}
+#AccesorioNueve{
+    background-image: url('../imagenes/fendiBufanda2.png');
+    background-size: 100%;
+    
+}
+#AccesorioDiez{
+    background-image: url('../imagenes/dolceGabbanaGemelos2.png');
+    background-size: 100%;
+    
+}
+#AccesorioOnce{
+    background-image: url('../imagenes/ferragamo2.png');
+    background-size: 100%;
+    
+}
+#AccesorioDoce{
+    background-image: url('../imagenes/FPMMilano2.png');
+    background-size: 100%;
+    
+}
+#AccesorioTrece{
+    background-image: url('../imagenes/philpPleinCartera2.png');
+    background-size: 100%;
+    
+}
+#AccesorioCatorce{
+    background-image: url('../imagenes/PradaNeceser2.png');
+    background-size: 100%;
+    
+}
+#AccesorioQuince{
+    background-image: url('../imagenes/supremeCasco2.png');
+    background-size: 100%;
+    
+}
+#AccesorioDieciseis{
+    background-image: url('../imagenes/versaceCama2.png');
+    background-size: 100%;
+    
+}
+
+/**/
+
+#RelojUno{
+    background-image: url('../imagenes/rolexDorado2.png');
+    background-size: 100%;
+    
+}
+#RelojDos{
+    background-image: url('../imagenes/rolexNegro2.png');
+    background-size: 100%;
+    
+}
+#RelojTres{
+    background-image: url('../imagenes/rolexNegroRosa2.png');
+    background-size: 100%;
+    
+}
+#RelojCuatro{
+    background-image: url('../imagenes/madParis2.png');
+    background-size: 100%;
+    
+}
+#RelojCinco{
+    background-image: url('../imagenes/patekPhilippeNegro2.png');
+    background-size: 100%;
+    
+}
+#RelojSeis{
+    background-image: url('../imagenes/patekPhilipPlata2.jpg');
+    background-size: 100%;
+    
+}
+#RelojSiete{
+    background-image: url('../imagenes/rolexDateOro2.png');
+    background-size: 100%;
+    
+}
+#RelojOcho{
+    background-image: url('../imagenes/rolexDatePlata2.png');
+    background-size: 100%;
+    
+}
+#RelojNueve{
+    background-image: url('../imagenes/rolexDateRosa2.png');
+    background-size: 100%;
+    
+}
+#RelojDiez{
+    background-image: url('../imagenes/rolexPlataOro2.png');
+    background-size: 100%;
+    
+}
+#RelojOnce{
+    background-image: url('../imagenes/audemansPiguet2.png');
+    background-size: 100%;
+    
+}
+#RelojDoce{
+    background-image: url('../imagenes/rolexPlataRosa2.png');
+    background-size: 100%;
+    
+}
+#RelojTrece{
+    background-image: url('../imagenes/rolexOroPlata2.png');
+    background-size: 100%;
+    
+}
+#RelojCatorce{
+    background-image: url('../imagenes/rolexPlataRojo2.png');
+    background-size: 100%;
+    
+}
+#RelojQuince{
+    background-image: url('../imagenes/rolexVerde2.png');
+    background-size: 100%;
+    
+}
+#RelojDieciseis{
+    background-image: url('../imagenes/hublot2.png');
+    background-size: 100%;
+    
+}
 
 
 
@@ -421,8 +430,13 @@ main{
     margin-top: 2em;
     overflow: hidden;
     width: 20%;
+    height: 1800px;
     float: left;
 }
+#zapatillas{
+    height: 1250px;
+}
+
 .marcasDisponibles{
     margin-top: 2em;
     font-size: 0.8em;
@@ -529,7 +543,6 @@ main{
 
 .subir{
     margin: 1.5em;
-    margin-top: 18em;
     width: 50px;
     height: 100px;
     float: right;
@@ -563,12 +576,24 @@ main{
     100% {left:0px; top:10px;}
   }
 
+
+.terminosUso p{
+    margin-top: 2em;
+}
+
+  /*Estilo de terminos de uso*/
+  .terminosUso{
+    text-align: justify;
+    width: 80%;
+    margin: auto;
+    margin-top: 10em;
+  }
 /*pie de la pagina*/
 footer{
     margin-top: 3em;
     color: white;
     background-color:rgb(36, 36, 36);
-    height: 600px;
+    height: 550px;
 }
 .listaTendencias ul{
     float: left;
@@ -653,4 +678,22 @@ footer{
     margin: auto;
     width: 60%;
     overflow: hidden;
+}
+.terminos{
+    width: 100%;
+    height: 150px;
+    padding: 5em;
+    text-align: center;
+    margin: auto;
+    margin-top: 0;
+    background-color: black;
+    color: white;
+
+}
+.terminos a{
+    text-decoration: none;
+    color: white;
+}
+.terminos a:hover{
+    border-bottom:white solid 1px ;
 }
